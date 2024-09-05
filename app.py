@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 car_data = pd.read_csv(
-    '/proyecto6/vehicles_us.csv')  # leer los datos
+    'vehicles_us.csv')  # leer los datos
 
 # crear una casilla de verificación
 build_histogram = st.checkbox('Histograma Vehiculos')
